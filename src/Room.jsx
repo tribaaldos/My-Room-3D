@@ -15,6 +15,7 @@ import { Estanteria } from "./assets/components/Estanteria";
 import { Keyboard } from "./assets/components/Keyboard";
 import { Laptop } from "./assets/components/Laptop";
 import { Speakers } from "./assets/components/Speakers";
+import { Window } from "./assets/components/Window";
 
 export function Model(props) {
   const { nodes, materials } = useGLTF("./model/myRoom9.glb");
@@ -33,6 +34,7 @@ export function Model(props) {
       <Estanteria />
       <Keyboard />
       <Laptop />
+      <Window />
 
       {/* PLANES */}
       <mesh
